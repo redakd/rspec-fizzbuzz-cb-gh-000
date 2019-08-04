@@ -5,6 +5,9 @@ def fizzbuzz(number)
     puts "FizzBuzz"
   elsif number % 3
     puts "Fizz"
+  elsif number % 5
+    puts "buzz"
+  end
   end
   end
 end
