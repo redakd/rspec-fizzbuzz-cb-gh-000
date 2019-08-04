@@ -9,5 +9,3 @@ def fizzbuzz(number)
     puts "buzz"
   end
 end
-end
-end
