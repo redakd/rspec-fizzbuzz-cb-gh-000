@@ -2,10 +2,10 @@
 # See README.md for instructions on how to do this
 def fizzbuzz(number)
   if number % 3 && number % 5
-    print "FizzBuzz"
+    puts "FizzBuzz"
   elsif number % 3
-    print "Fizz"
+    puts "Fizz"
   elsif number % 5
-    print "buzz"
+    puts "buzz"
   end
 end
