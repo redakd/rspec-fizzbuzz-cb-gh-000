@@ -5,9 +5,13 @@ def fizzbuzz(number)
     puts "FizzBuzz"
   elsif number % 3
     puts "Fizz"
+    
   end
-  elsif number % 5
-    puts "buzz"
-  end
-  end
+end
+
+elsif number % 3
+  puts "Fizz"
+end
+elsif number % 5
+  puts "buzz"
 end
