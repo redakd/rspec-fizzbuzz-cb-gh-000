@@ -5,7 +5,7 @@ def fizzbuzz(number)
     puts "FizzBuzz"
   elsif number % 3
     puts "Fizz"
-    
+
   end
 end
 
